@@ -62,6 +62,16 @@ void stopMoving(speed) {
   digitalWrite(IN2, HIGH);
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, HIGH);
+  
+  
+void stp(speed) {
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, low);
+  digitalWrite(IN3, low);
+  digitalWrite(IN4, HIGH);
+  
+  
+  
 }
 
 }
