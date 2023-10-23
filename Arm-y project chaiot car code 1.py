@@ -72,6 +72,15 @@ void stp(speed) {
   
   
   
+void rpg(speed) {
+  digitalWrite(IN1, low);
+  digitalWrite(IN2, low);
+  digitalWrite(IN3, low);
+  digitalWrite(IN4, low);
+  
+  
+  
+  
 }
 
 }
